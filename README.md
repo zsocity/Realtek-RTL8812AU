@@ -20,3 +20,5 @@
 <p>sudo dpkg --remove linux-headers-6.6.15-amd64 </p>
 <p>apt --fix-broken install</p>
 <p>sudo apt remove realtek-rtl88xxau-dkms</p>
+<p>dpkg -l | grep linux-kbuild</p>
+<p>dpkg -l | grep linux-headers</p>
