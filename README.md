@@ -13,8 +13,6 @@
 <p>sudo apt-get install linux-image-amd64</p>
 <p>sudo apt-get install linux-headers-$(uname -r)</p>
 <p>sudo apt install -f</p>
-<p>dpkg -l | grep linux-kbuild</p>
-<p>dpkg -l | grep linux-headers</p>
 <p>sudo apt install bc</p>
 <p>sudo apt install realtek-rtl88xxau-dkms </p>
 
