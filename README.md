@@ -12,7 +12,6 @@
 <p>apt-cache search linux-headers-$(uname -r | sed 's/-.*//')</p>
 <p>sudo apt-get install linux-image-amd64</p>
 <p>sudo apt-get install linux-headers-$(uname -r)</p>
-<p>sudo dpkg -i linux-headers-6.6.15-amd64_6.6.15-2kali1+b1_amd64.deb</p>
 <p>sudo apt install -f</p>
 <p>dpkg -l | grep linux-kbuild</p>
 <p>dpkg -l | grep linux-headers</p>
